@@ -47,5 +47,8 @@ ENV PHP_POST_MAX_SIZE 10M
 # Expose apache port
 EXPOSE 80
 
+RUN chmod +x /*.sh && \
+    chmod +x /build/*.sh 
+    
 WORKDIR /var/www/html
 CMD /run.sh
