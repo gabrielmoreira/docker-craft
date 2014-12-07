@@ -47,7 +47,7 @@ $ docker build -t gabrielmoreira/craft  github.com/gabrielmoreira/docker-craft
 Known issues
 ------------
 
-## Page not found on / after installation
+### Page not found on / after installation
 
 It's a know bug: (http://craftcms.stackexchange.com/a/5137)
 
