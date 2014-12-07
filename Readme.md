@@ -37,6 +37,13 @@ This is a rather common setup following docker's conventions:
 * `--name` (Optional) the name of container instance
 * `gabrielmoreira/craft` the name of this docker image
 
+Building
+--------
+
+```bash
+$ docker build -t gabrielmoreira/craft  github.com/gabrielmoreira/docker-craft
+```
+
 Known issues
 ------------
 
