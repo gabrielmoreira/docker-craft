@@ -1,7 +1,7 @@
 docker-craft - Craft CMS for Docker
 -----------------------------------
 
-[Craft](https://buildwithcraft.com/) Craft is a content management system (CMS) that’s laser-focused on doing one thing really, really well: managing content.
+[Craft](https://buildwithcraft.com/) is a content management system (CMS) that’s laser-focused on doing one thing really, really well: managing content.
 This is a [docker](https://www.docker.io) image that eases setup.
 
 ### About Craft
