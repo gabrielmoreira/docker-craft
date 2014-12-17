@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e
 
+sudo chmod 777 /tmp
+
 [[ ! -d /var/lib/mysql ]] && mysql_install_db
 
 mysqld_safe 2>&1 &
