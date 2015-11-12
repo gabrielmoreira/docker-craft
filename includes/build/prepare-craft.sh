@@ -13,4 +13,3 @@ mv html/htaccess html/.htaccess || echo "html/htaccess not found"
 . $(dirname $0)/prepare-mysql.sh
 . $(dirname $0)/prepare-apache.sh
 . $(dirname $0)/prepare-php.sh
-. $(dirname $0)/install-craft-plugins.sh

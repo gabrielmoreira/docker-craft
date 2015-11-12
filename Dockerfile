@@ -20,8 +20,8 @@ RUN apt-get update && \
 # PHP Composer
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
-# Download latest craft app (uggly web scraping)
-RUN ["/bin/bash", "-c", "curl -o /craft.zip $(echo -e `curl -s buildwithcraft.com | grep craftDownloadUrl | cut -d '\"' -f 2`)"]
+# Download latest craft
+RUN ["/bin/bash", "-c", "curl -L -o /craft.zip http://buildwithcraft.com/latest.zip?accept_license=yes"]
 
 # Unzip craft
 RUN unzip /craft.zip -d /var/www && \
