@@ -21,7 +21,7 @@ RUN apt-get update && \
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
 # Download latest craft
-RUN ["/bin/bash", "-c", "curl -L -o /craft.zip http://buildwithcraft.com/latest.zip?accept_license=yes"]
+RUN ["/bin/bash", "-c", "curl -L -o /craft.zip https://craftcms.com/latest.zip?accept_license=yes"]
 
 # Unzip craft
 RUN unzip /craft.zip -d /var/www && \
