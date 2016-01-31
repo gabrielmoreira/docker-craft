@@ -1,6 +1,10 @@
 docker-craft - Craft CMS for Docker
 -----------------------------------
 
+> # :warning: This project is discontinued and deprecated :construction:
+>  
+> # We recomend use [gabrielmoreira/craftman](https://github.com/gabrielmoreira/craftman)
+
 [Craft](https://buildwithcraft.com/) is a content management system (CMS) that’s laser-focused on doing one thing really, really well: managing content.
 This is a [docker](https://www.docker.io) image that eases setup.
 
